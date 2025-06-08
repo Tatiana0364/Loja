@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bella Moda - Loja Feminina</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Bella Moda</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="destaque">
+      <div class="destaque-conteudo">
+        <div class="destaque-texto">
+          <h2>Estilo que te Representa!</h2>
+          <p>Confira nossa coleção especial de outono com descontos imperdíveis!</p>
+          <button id="btnPromo" onclick="window.location.href='promocao.html'">Ver Promoção</button>
+        </div>
+        <div class="destaque-imagem">
+          <img src="estilo.png" alt="Estilo que representa" />
+        </div>
+      </div>
+    </section>
+
+    <section id="produtos" class="produtos">
+      <h2>Lançamentos</h2>
+      <div class="container-produtos">
+        <!-- Produto Vestido Floral -->
+        <div class="produto">
+          <img src="vestido.jpeg" alt="Vestido Floral" />
+          <h3>Vestido Floral</h3>
+          <p>
+            Leve, delicado e perfeito para o dia a dia. 
+            <a href="produto-vestido.html" class="link-descricao">Ver descrição completa</a>
+          </p>
+          <span>R$ 129,90</span>
+        </div>
+
+        <div class="produto">
+          <img src="bolsa.jpeg" alt="Bolsa Elegante" />
+          <h3>Bolsa Elegante</h3>
+          <p>Compacta e charmosa para qualquer ocasião.</p>
+          <span>R$ 89,90</span>
+        </div>
+        <div class="produto">
+          <img src="sapato.jpeg" alt="Sapato Confortável" />
+          <h3>Sapato Confortável</h3>
+          <p>Você Sempre Bonita.</p>
+          <span>R$ 99,90</span>
+        </div>
+        <div class="produto">
+          <img src="cinto.jpeg" alt="Cinto Moderno" />
+          <h3>Cinto Moderno</h3>
+          <p>Acabamento sofisticado para complementar seu look.</p>
+          <span>R$ 59,90</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Bella Moda. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>

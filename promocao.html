@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Promoção - Bella Moda</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff0f5;
+      color: #5a2a5f;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+    .topo {
+      width: 100%;
+      background-color: #f8c8dc;
+      padding: 1em 2em;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      text-align: left;
+      position: fixed;
+      top: 0;
+      left: 0;
+      color: #b03060;
+      font-weight: bold;
+    }
+    .topo a {
+      color: #b03060;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    .topo a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      background-color: #ffe4ec;
+      padding: 2em 3em;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(176,48,96,0.3);
+      max-width: 400px;
+      width: 90%;
+      text-align: center;
+      margin-top: 80px; /* para não ficar escondido atrás do topo fixo */
+    }
+    h2 {
+      margin-bottom: 1em;
+      color: #b03060;
+    }
+    input {
+      width: 100%;
+      padding: 0.7em;
+      margin: 0.5em 0 1em 0;
+      border: 1px solid #f3c0d4;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+    button {
+      background-color: #d87093;
+      color: white;
+      border: none;
+      padding: 0.8em 2em;
+      font-size: 1em;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #b03060;
+    }
+  </style>
+</head>
+<body>
+  <div class="topo">
+    <a href="index.html">&larr; Voltar ao Início</a>
+  </div>
+
+  <div class="container">
+    <h2>Cadastre-se e aproveite a promoção!</h2>
+    <form>
+      <input type="text" placeholder="Nome completo" required />
+      <input type="tel" placeholder="Telefone" required />
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>

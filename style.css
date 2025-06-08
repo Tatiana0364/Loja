@@ -1,0 +1,118 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff0f5;
+  color: #5a2a5f;
+}
+
+header {
+  background-color: #f8c8dc;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-size: 1.8em;
+  color: #b03060;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #5a2a5f;
+  font-weight: bold;
+}
+
+.destaque {
+  background-color: #ffe4ec;
+  padding: 2em;
+  text-align: center;
+}
+
+.destaque-conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.destaque-texto {
+  max-width: 400px;
+  text-align: left;
+}
+
+.destaque-imagem img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 0; /* Sem bordas arredondadas */
+  box-shadow: none; /* Sem sombra */
+}
+
+.destaque h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  color: #b03060;
+}
+
+.destaque button {
+  padding: 0.7em 1.5em;
+  font-size: 1em;
+  background-color: #d87093;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.produtos {
+  padding: 2em;
+  background-color: #fff;
+}
+
+.produtos h2 {
+  text-align: center;
+  margin-bottom: 1em;
+  color: #b03060;
+}
+
+.container-produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+
+.produto {
+  background-color: #ffe4ec;
+  border: 1px solid #f3c0d4;
+  padding: 1em;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.produto img {
+  width: 100%;
+  border-radius: 0; /* Sem bordas arredondadas */
+  box-shadow: none; /* Sem sombra */
+}
+
+footer {
+  background-color: #f8c8dc;
+  padding: 1em;
+  text-align: center;
+  margin-top: 2em;
+}
